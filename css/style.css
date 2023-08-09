@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(146, 237, 143);
+}
+
+.hero{
+    background-color: rgb(231, 183, 255);
+}
+
+.sobre-mi{
+    background-color: rgb(250, 171, 171);
+}
+
+.education{
+    background-color: rgb(132, 176, 230);
+}
+
+.portfolio{
+    background-color: rgb(91, 125, 84);
+}
+
+.services{
+    background-color: rgb(237, 189, 131);
+}
+
+footer{
+    background-color: aqua;
+}
