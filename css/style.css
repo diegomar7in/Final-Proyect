@@ -207,7 +207,7 @@ header button{
 
 
 .diegoimg-sobre-mi{
-    width: 20em;
+    width: 22em;
     border: 6px solid #F83546;
     transform: scaleX(-1);
 }
@@ -217,17 +217,25 @@ header button{
 }
 
 
+
 .sobremi-texto h4{
     color: #F83546;
     font-size: 12px;
     font-weight: 500;
-    padding: 20px 0px;
+
 }
+
+.sobremi-h4-2{
+    padding-bottom: 20px;
+}
+
+
 
 .sobremi-texto h2{
     font-family: 'Domine', serif;
     font-size: 2em;
     color: white;
+    padding: 20px 0px;
 }
 
 
