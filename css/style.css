@@ -241,7 +241,7 @@ header button{
 
 
 .sobremi-texto p{
-    color: rgb(106, 106, 106);
+    color: rgb(139, 139, 139);
     font-size: 11px;
     font-weight: 600;
 }
@@ -299,15 +299,95 @@ header button{
 
 
 
-
-
-
-
-
-
+/* ------------------- SECTION EDUCATION ------------------- */
 
 .education{
-    background-color: aquamarine;
+    background-color: #121212;
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-edu-hab{
+    display: flex;
+    height: 20.5rem;
+
+}
+
+
+
+
+.my-education{
+    /* background-color: rgb(240, 133, 226); */
+    margin-right: 50px;
+}
+
+
+.titulo1-education{
+    color: #F83546;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.titulo2-education{
+    font-family: 'Domine', serif;
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.educacion{
+    margin-left: 50px;
+}
+
+
+
+
+.my-education .grey-letter{
+    color: rgb(139, 139, 139);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.año{
+    color: #F83546;
+    font-size: 11px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.my-education .diplo{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.timeline{
+    position: relative;
+    bottom: 105px;
+    right: 0px;
+}
+
+.timeline-circle{
+    background-color: #F83546;
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    
+}
+
+
+.timeline-line{
+    position: relative;
+    background-color: rgb(106, 106, 106);
+    width: 1px;
+    height: 110px;
+    left: 3px;
 }
 
 
@@ -323,8 +403,42 @@ header button{
 
 
 
+.habilidades{
+}
 
 
+.contenedor-barras-progreso{
+
+}
+
+.contenedor-texto-progreso{
+}
+
+.texto-barra{
+    display: flex;
+    justify-content: space-between;
+}
 
 
+.grey-letter-progress{
+    color: rgb(139, 139, 139);
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
+.barra-contenedora {
+    width: 350px;
+    height: 3px;
+    background-color: rgb(106, 106, 106);
+    border-radius: 100px;
+    border: none;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.barra-progresiva {
+    height: 100%;
+    background-color: #F83546;
+    border-radius: 100px;
+}
