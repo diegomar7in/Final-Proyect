@@ -21,6 +21,8 @@ header{
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
+    backdrop-filter: blur(9px);
+    z-index: 1000;
 }
 
 header .logo{
