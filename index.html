@@ -9,15 +9,18 @@
 </head>
 <body>
     <header>
-        <h2 class="logo"><span>DGO</span>DESIGN<span class="spanpunto">.</span></h2>
+        <a href="">
+            <h2 class="logo"><span>DGO</span>DESIGN<span class="spanpunto">.</span></h2>
+        </a>
+        
 
         <nav>
-            <a href="#"><span>Inicio</span></a>
-            <a href="#">Sobre mi</a>
-            <a href="#">Experiencia</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#hero"><span>Inicio</span></a>
+            <a href="#sobremi">Sobre mi</a>
+            <a href="#conocimiento">Conocimiento</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#servicios">Services</a>
+            <a href="#contacto">Contact</a>
         </nav>
 
         <button>Descargar Ahora</button>
@@ -26,7 +29,7 @@
 
 
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
 
             <div class="div-izq-hero">
                 <h4>Empecemos a trabajar.</h4>
@@ -40,25 +43,27 @@
                     
                     <button class="leermas">Leer más</button>
 
-                    <div class="contenedor-play-video">
+                    <a href="">
+                        <div class="contenedor-play-video">
 
-                            <div class="play-video">
-                                <i class="bi bi-triangle-fill triangulo-play"></i>
-                            </div>
+                                <div class="play-video">
+                                    <i class="bi bi-triangle-fill triangulo-play"></i>
+                                </div>
 
-                            <div class="texto-play-video">
-                                <p>PLAY VIDEO</p>
-                            </div>
-                        
+                                <div class="texto-play-video">
+                                    <a href=""><p>PLAY VIDEO</p></a>
 
-                    </div>
+                                </div>
+                    </a>  
+
+                        </div>
                     
 
                 </div>
             </div>
             
 
-                <img class="diegoimg" src="images/diego-img.png" alt="">
+                <img class="diegoimg" src="images/diego-img.png" alt="Diego Franco, Frontend">
 
 
         </section>
@@ -68,9 +73,9 @@
 
 
 
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="sobremi">
             <div class="cuadrofoto">
-                <img class="diegoimg-sobre-mi" src="images/diego-img.png" alt="">
+                <img class="diegoimg-sobre-mi" src="images/diego-img.png" alt="Diego Franco, Frontend" title="Diego Franco, Frontend.">
             </div>
 
 
@@ -117,7 +122,7 @@
 
 
 
-        <section class="education">
+        <section class="education" id="conocimiento">
             <div class="contenedor-edu-hab">
 
                 <div class="my-education">
@@ -213,7 +218,7 @@
 
 
 
-        <section class="portfolio">
+        <section class="portfolio" id="portafolio">
 
             <div class="contenedor-texto-portfolio">
                 <div class="portafolio-titulo">
@@ -229,12 +234,19 @@
 
             <div class="padre-works">
                 <div class="parent">
-                    <div class="cuadrado div1"> </div>
-                    <div class="cuadrado div2"> </div>
-                    <div class="cuadrado div3"> </div>
-                    <div class="cuadrado div4"> </div>
-                    <div class="cuadrado div5"> </div>
-                    <div class="cuadrado div6"> </div>
+
+                    <div class="cuadrado1 div1"><a href=""><img src="./images/pruebacuadrado.jpg" width="245px" height="245px"></a></div>
+                    
+                    <div class="cuadrado2 div2"><a href=""><img src="./images/pruebacuadrado.jpg" width="245px" height="245px"></a></div>
+                    
+                    <div class="cuadrado3 div3"><a href=""><img src="./images/pruebacuadrado.jpg" width="245px" height="245px"></a></div>
+                    
+                    <div class="cuadrado4 div4"><a href=""><img src="./images/pruebacuadrado.jpg" width="245px" height="245px"></a></div>
+                    
+                    <div class="cuadrado5 div5"><a href=""><img src="./images/pruebacuadrado.jpg" width="245px" height="245px"></a></div>
+                    
+                    <div class="cuadrado6 div6"><a href=""><img src="./images/pruebacuadrado.jpg" width="508px" height="508px"></a></div>
+                    
                 </div>
             </div>
 
@@ -247,7 +259,7 @@
 
 
 
-        <section class="services">
+        <section class="services" id="servicios">
             <div class="titulo-services">
 
                     <h3>Te ofrezco</h3>
@@ -266,7 +278,6 @@
                         <h3 class="titulo-card-services">Frontend Developer</h3>
                         <p class="texto-card-service">Ofrezco la creación y diseño de interfaces visuales atractivas y funcionales para sitios web utilizando HTML y CSS.</p>
 
-                        <p>
                             <div class="contenedor-icon-item">
                                 <div class="contenedor-row">
                                     <h5>></h5>
@@ -314,7 +325,7 @@
 
 
 
-        <section class="contact">
+        <section class="contact" id="contacto">
             <div class="contenedor-contact">
                 <div class="titulo-contact">
                     <h4>Contacto</h4>
@@ -406,10 +417,10 @@
 
 
             <div class="footer-icons">
-                <a href=""><i class="bi bi-facebook icon-footer"></i></a>
-                <a href=""><img class="ex-logo" src="./images/icon-new-twitter.ico" alt=""></a>
-                <a href=""><i class="bi bi-behance icon-footer"></i></a>
-                <a href=""><i class="bi bi-dribbble icon-footer"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100087052397985&mibextid=ZbWKwL" target="_blank"><i class="bi bi-facebook icon-footer"></i></a>
+                <a href="https://twitter.com/__diegomartin"><i class="bi bi-twitter icon-footer"></i></a>
+                <a href="https://github.com/diegomar7in" target="_blank"><i class="bi bi-github icon-footer"></i></a>
+                <a href="https://instagram.com/diegomar7in?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i class="bi bi-instagram icon-footer"></i></i></a>
 
                 
                 

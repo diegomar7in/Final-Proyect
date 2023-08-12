@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 /* ------------------- HEADER ------------------- */
@@ -42,8 +43,12 @@ header .logo span{
 
 nav a span{
     color: #F83546;
+    transition: 0.5s;
 }
 
+nav a span:hover{
+    color: white;
+}
 
 nav a{
     color: rgb(106, 106, 106);
@@ -51,8 +56,13 @@ nav a{
     padding-left: 20px;
     font-size: 11.5px;
     font-weight: 600;
+    transition: 0.5s;
 }
 
+
+nav a:hover{
+    color: #F83546;
+}
 
 header button{
     font-family: 'Poppins', sans-serif;
@@ -67,6 +77,13 @@ header button{
     margin-right: 100px;
     border-radius: 50px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+header button:hover{
+    color: #F83546;
+    background-color: white;
+    border: 2px solid white;
 }
 
 
@@ -147,8 +164,14 @@ header button{
     padding: 10px 45px;
     border-radius: 50px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
+.div-izq-hero .leermas:hover{
+    color: #F83546;
+    background-color: white;
+    border: 2px solid white;
+}
 
 
 .contenedor-play-video{
@@ -157,11 +180,15 @@ header button{
 
 }
 
+
 .texto-play-video{
     height: 20px;
     margin-left: 10px;
     font-weight: 600;
+    transition: 0.5s;
 }
+
+
 
 .texto-play-video p{
     color: #F83546;
@@ -178,6 +205,11 @@ header button{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+}
+
+.play-video:hover{
+    scale: 1.2;
 }
 
 .triangulo-play{
@@ -276,6 +308,13 @@ header button{
     margin-right: 10px;
     border-radius: 50px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-descargar-cv-sobremi:hover{
+    color: #F83546;
+    background-color: white;
+    border: 2px solid white;
 }
 
 .button-leermas-sobremi{
@@ -291,8 +330,14 @@ header button{
     margin-right: 10px;
     border-radius: 50px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
+.button-leermas-sobremi:hover{
+    color: #F83546;
+    background-color: white;
+    border: 2px solid white;
+}
 
 
 
@@ -502,42 +547,49 @@ header button{
     grid-row-gap: 20px;
     }
 
-.cuadrado{
+.cuadrado1{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    border: none;
+    overflow: hidden;
+}
+
+.cuadrado2{
     background-color: rgb(255, 255, 255);
     border: none;
 }
-    
-.div1{
-    grid-area: 1 / 1 / 2 / 2;
+
+.cuadrado3{
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
 
-.div2{
-    grid-area: 2 / 1 / 3 / 2;
+.cuadrado4{
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
 
-
-
-.div3{
-    grid-area: 3 / 1 / 4 / 2;
+.cuadrado5{
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
 
-
-
-.div4{
-    grid-area: 3 / 2 / 4 / 3;
+.cuadrado6{
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
 
+.div1{ grid-area: 1 / 1 / 2 / 2; }
 
+.div2{ grid-area: 2 / 1 / 3 / 2; }
 
-.div5{
-    grid-area: 3 / 3 / 4 / 4;
-}
+.div3{ grid-area: 3 / 1 / 4 / 2; }
 
+.div4{ grid-area: 3 / 2 / 4 / 3; }
 
+.div5{ grid-area: 3 / 3 / 4 / 4; }
 
-.div6{
-    grid-area: 1 / 2 / 3 / 4;
-}
+.div6{ grid-area: 1 / 2 / 3 / 4; }
 
 
 /* ------------------- SECTION SERVICES ------------------- */
@@ -579,10 +631,18 @@ header button{
     align-items: center;
 
 }
+
 .contenedor-services{
     width: 16em;
     background-color: rgb(26, 29, 34);
+
 }
+
+.contenedor-services:hover{
+    background-color: black;
+    border: 3px solid #F83546;
+}
+
 
 .titulo-texto-services{
     padding: 20px;
@@ -775,9 +835,14 @@ textarea{
     border-radius: 50px;
     cursor: pointer;
     margin-top: 30px;
+    transition: 0.5s;
 }
 
-
+.button-contact:hover{
+    color: #F83546;
+    background-color: white;
+    border: 2px solid white;
+}
 
 
 /* ------------------- FOOTER ------------------- */
@@ -852,14 +917,15 @@ footer{
     align-items: center;
 }
 
-.ex-logo{
-    width: 10px;
-    margin-left: 10px;
-    margin-top: 11px;
-}
+
 
 .icon-footer{
     color: white;
     font-size: 11px;
     margin-left: 10px;
+    transition: 0.5s;
+}
+
+.icon-footer:hover{
+    color: #F83546;
 }
