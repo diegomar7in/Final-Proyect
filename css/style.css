@@ -207,7 +207,7 @@ header button{
 
 
 .diegoimg-sobre-mi{
-    width: 22em;
+    width: 300px;
     border: 6px solid #F83546;
     transform: scaleX(-1);
 }
@@ -303,7 +303,7 @@ header button{
 
 .education{
     background-color: #121212;
-    height: 38rem;
+    padding: 100px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,7 +319,7 @@ header button{
 
 
 .my-education{
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 
@@ -634,10 +634,230 @@ header button{
 }
 
 .contenedor-icon-item p{
-
     color: rgb(139, 139, 139);
     font-size: 11px;
     font-weight: 5px;
     margin-left: 5px;
 }
 
+
+
+/* ------------------- SECTION CONTACT ------------------- */
+
+.contact{
+    background-image: linear-gradient(rgb(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/background-section-contact.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 80px 10em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-contact h4{
+
+    color: #F83546;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.titulo-contact h2{
+    font-family: 'Domine', serif;
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.contenedor-info-form{
+    display: flex;
+}
+
+
+.info{
+    width: 250px;
+}
+
+.info h4{
+    font-family: 'Domine', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.infomarginh4{
+    margin-top: 20px;
+
+}
+
+
+
+.info p{
+    color: rgb(139, 139, 139);
+    font-size: 11px;
+    font-weight: 5px;
+}
+
+.infopmarginp{
+    margin-bottom: 5px;
+}
+
+.hr-contact{
+    margin-top: 15px;
+    background-color: rgb(28, 28, 28);
+    width: 90%;
+    height: 0.2px;
+    border: none;
+
+}
+
+.contenedor-formulario{
+
+}
+
+input{
+    height: 35px;
+    width: 230px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+    border: 0.2px solid rgb(28, 28, 28) ;
+}
+
+.input-text-contact{
+    margin-left: 15px;
+}
+
+
+
+
+textarea{
+    background-color: black;
+    color: white;
+    width: 521px;
+    height: 150px;
+    border: none;
+    resize: none;
+    padding: 10px 20px 20px 20px;
+    border: 0.2px solid rgb(28, 28, 28)  ;
+}
+
+
+
+
+
+
+
+.button-contact{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: #F83546;
+    border: 2px solid #f83545;
+    padding: 10px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+
+
+/* ------------------- FOOTER ------------------- */
+
+footer{
+    background-color: #121212;
+    padding: 50px 250px;
+    font-family: 'Domine', serif;
+}
+
+.contenedor-footer-4-divs{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.contenedor-footer-4-divs h3{
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.logo-footer{
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.punto-logo-footer{
+    color: #F83546;
+}
+
+
+.contenedor-footer-4-divs p{
+    color: rgb(212, 212, 212);
+    font-size: 11px;
+    font-weight: 5px;
+}
+
+
+
+.hr-footer{
+    margin: 40px 0px;
+    background-color: rgb(28, 28, 28);
+    height: 0.2px;
+    border: none;
+}
+
+
+
+
+.derechos-icons{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.derechos-reserved{
+    color: rgb(212, 212, 212);
+    font-size: 11px;
+    font-weight: 5px;
+}
+
+
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+}
+
+.ex-logo{
+    width: 10px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+.icon-footer{
+    color: white;
+    font-size: 11px;
+    margin-left: 10px;
+}
