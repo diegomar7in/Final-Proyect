@@ -14,14 +14,13 @@
 
 header{
     padding: 10px 0px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     font-family: 'Poppins', sans-serif;
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.5s;
     backdrop-filter: blur(9px);
     z-index: 1000;
 }
