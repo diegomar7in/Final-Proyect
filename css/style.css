@@ -552,35 +552,48 @@ header button:hover{
     }
 
 .cuadrado1{
-    background-image: url(../images/background.png);
-    background-size: cover;
     border: none;
     overflow: hidden;
+    transition: 0.5s;
 }
+
+.cuadrado1:hover{
+    transform: scale(1.2);
+}
+
 
 .cuadrado2{
     background-color: rgb(255, 255, 255);
     border: none;
+    transition: 0.5s;
+}
+
+.cuadrado2:hover{
+    transform: scale(1.2);
 }
 
 .cuadrado3{
     background-color: rgb(255, 255, 255);
     border: none;
+    transition: 0.5s;
 }
 
 .cuadrado4{
     background-color: rgb(255, 255, 255);
     border: none;
+    transition: 0.5s;
 }
 
 .cuadrado5{
     background-color: rgb(255, 255, 255);
     border: none;
+    transition: 0.5s;
 }
 
 .cuadrado6{
     background-color: rgb(255, 255, 255);
     border: none;
+    transition: 0.5s;
 }
 
 .div1{ grid-area: 1 / 1 / 2 / 2; }
