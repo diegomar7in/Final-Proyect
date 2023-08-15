@@ -578,11 +578,21 @@ header button:hover{
     transition: 0.5s;
 }
 
+.cuadrado3:hover{
+    transform: scale(1.2);
+}
+
+
 .cuadrado4{
     background-color: rgb(255, 255, 255);
     border: none;
     transition: 0.5s;
 }
+
+.cuadrado4:hover{
+    transform: scale(1.2);
+}
+
 
 .cuadrado5{
     background-color: rgb(255, 255, 255);
@@ -590,11 +600,21 @@ header button:hover{
     transition: 0.5s;
 }
 
+.cuadrado5:hover{
+    transform: scale(1.2);
+}
+
+
 .cuadrado6{
     background-color: rgb(255, 255, 255);
     border: none;
     transition: 0.5s;
 }
+
+.cuadrado6:hover{
+    transform: scale(1.2);
+}
+
 
 .div1{ grid-area: 1 / 1 / 2 / 2; }
 
