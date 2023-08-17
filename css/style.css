@@ -151,27 +151,6 @@ header button:hover{
 }
 
 
-.div-izq-hero .leermas{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-right: 20px;
-    color: white;
-    background-color: #F83546;
-    border: 2px solid #f83545;
-    padding: 10px 45px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.div-izq-hero .leermas:hover{
-    color: #F83546;
-    background-color: white;
-    border: 2px solid white;
-}
-
 
 .contenedor-play-video{
     display: flex;
@@ -316,27 +295,9 @@ header button:hover{
     border: 2px solid white;
 }
 
-.button-leermas-sobremi{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-right: 20px;
-    color: #f83545;
-    background-color: #f8354500;
-    border: 2px solid #f83545;
-    padding: 10px 40px;
-    margin-right: 10px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.5s;
-}
 
-.button-leermas-sobremi:hover{
-    color: #F83546;
-    background-color: white;
-    border: 2px solid white;
-}
+
+
 
 
 
