@@ -1,4 +1,4 @@
-Página Web tipo Landingpage.
+Página Web tipo Landingpage. Página original: https://www.behance.net/gallery/97791881/Arfilos-personal-portfolio-landing-page-PSD
 La página cuenta con seis secciones, en la primera podemos encontrar una presentación con una barra de navegación dinámica, boton para descargar mi curriculum y un video explicativo sobre paginas web.
 En la seguiente página cuento un poco sobre mi y datos personales, con otro boton nuevamente para descargar mi curriculum.
 La tercera sección contiene mis habilidades y estudios con una barra de progreso indicando el nivel de cada habilidad.
